@@ -1,0 +1,46 @@
+HTML:
+
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #gameCanvas {
+            border: 1px solid black;
+            margin-bottom: 20px;
+        }
+        #inventoryPanel {
+            display: none;
+            margin: 10px;
+        }
+        #shopPanel {
+            display: none;
+            margin: 10px;
+        }
+    </style>
+<style type="text/css" id="operaUserStyle"></style></head>
+<body>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    
+    <div id="inventoryPanel">
+        <h3>Inventory</h3>
+        <ul id="inventoryItems"></ul>
+        <button id="equipButtonSlipper">Equip Slipper</button>
+        <button id="equipButtonBottle">Equip Bottle</button>
+    </div>
+    
+    <button id="shopButton">Open Shop</button>
+    <button id="respawnButton">Respawn Timmy</button>
+    
+    <script src="script.js"></script><div id="shopPanel"><ul></ul><button>Buy Bottle (10 Coins)</button></div>
+
+
+</body></html>
+
+<!--The baby's name is actually Jimmy, the grandpa thinks his name is Timmy-->

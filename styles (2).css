@@ -1,0 +1,34 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#gameContainer {
+    position: relative;
+    margin: 0 auto;
+}
+
+#inventoryPanel {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 10;
+}
+
+#respawnButton {
+    margin: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#inventoryItems {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    margin-top: 5px;
+}
